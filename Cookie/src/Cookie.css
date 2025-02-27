@@ -1,0 +1,21 @@
+article {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.own {
+  width: 150px;
+
+  background-color: skyblue;
+  color: blue;
+  margin-bottom: 15px;
+}
+.two {
+  width: 150px;
+  background-color: blue;
+  color: white;
+}

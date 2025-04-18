@@ -24,10 +24,7 @@ function App() {
   return (
     <>
       <TadaId change={idValue} placeholder={"아이디"}></TadaId>
-      <Checker
-        text={"6~20자 이내"}
-        isChecked={inputValue.length >= 6 && 20 >= inputValue.length}
-      />
+      <Checker text={"6~20자 이내"} isChecked={aaa} />
       <TadaId change={pwValue} placeholder={"비밀번호"}></TadaId>
       <Checker
         text={"8~20자 이내"}
